@@ -1,0 +1,1 @@
+[{"id":"8ea98bb6-b13d-4259-a94d-9c65b967f9f6","name":"cpu ch","price":"33","origin":"computers","inStock":"false"},{"id":"2e558eea-abed-4d2a-88ae-66419eb14d65","name":"pc","price":"200","origin":"pcc","inStock":"true"},{"id":"f6124f5d-b537-4e67-ad26-7c37f7c11ba9","name":"mug","price":"2","origin":"appliances","inStock":"true"}]

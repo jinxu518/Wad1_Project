@@ -1,0 +1,29 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw; /* Use a relative unit like percentage */
+    
+    padding: 50px;
+    margin-left:20%;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    
+    
+}
+h1 {
+  
+  color: red;
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+}

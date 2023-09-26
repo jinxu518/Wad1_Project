@@ -1,0 +1,5 @@
+body {
+ 
+  height: 100vh; /* Make sure the body takes the full viewport height */
+  margin: 0; /* Remove default margins */
+}

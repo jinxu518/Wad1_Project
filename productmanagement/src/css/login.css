@@ -1,0 +1,83 @@
+.login-container {
+    width: 40vw; /* Use a relative unit like percentage */
+    height: auto; /* Let the height adjust based on content */
+    border: 1px solid gray;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    
+}
+
+
+.login-heading-with-image {
+    display: flex;
+    align-items: center; /* Vertically align the image and text */
+    justify-content: center;
+    color: blueviolet;
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 35px;
+letter-spacing: 1px;
+word-spacing: 2px;
+
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+.image {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+.error
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:red;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.input-text {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.mybtn {
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    padding: 7px 7px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); /* Rotate 360 degrees (full circle) */
+    }
+}
+
+/* Apply the animation to the image */
+.rotate-image {
+    animation: rotate 5s linear infinite; /* Rotate for 5 seconds infinitely */
+}

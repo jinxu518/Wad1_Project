@@ -1,0 +1,39 @@
+.robot-container {
+        
+                position: 'fixed';
+                bottom: '20px';
+                right: '20px';
+                width: '300px';
+                background-color:#8a2be2;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                padding:5px;
+                overflow: auto;
+  /* position:  fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;;
+  background-color: "#FFF0F5";
+  box-shadow: "0 2px 5px rgba(0; 0; 0; 0.2)";
+  border-radius: "2px"; */
+  
+}
+.image {
+        width: 50px; /* Adjust the width as needed */
+        height: auto; /* Maintain the aspect ratio */
+        margin-right: 10px; /* Add some spacing between the image and text */
+    }
+.input-panel
+{
+        width: 200px;
+        float:right;
+}
+.input-text {
+  width: 250px;
+  padding: 5px 5px;
+  margin: 0;
+  display: inline;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
